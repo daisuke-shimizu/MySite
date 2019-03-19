@@ -154,7 +154,7 @@ header{
     height: auto;
     width: 320px;
     padding-right: 10px;
-    text-align: center;
+    
 }
 .portfolio-image:nth-child(3){
     margin-right: 0;
@@ -171,6 +171,7 @@ header{
     font-size: 60px;
     color: #000000;
     margin: 0 auto;
+    text-align: center;
 }
 
 .feature-content h3{
@@ -219,11 +220,13 @@ header{
     font-size: 20px;
     margin-bottom: 5px;
     color: #000000;
+    
 }
 .myskill{
     font-size: 16px;
     color: #000000;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 #contact{
@@ -243,9 +246,27 @@ header{
     float: left;
     margin: 0 auto;
 }
+
+.left-chat-content{
+    margin: 0 auto;
+    width: 130px;
+    
+}
+
 .right-chat{
     float: left;
     width: 400px;
+}
+.right-chat-content{
+    
+    margin: 0 auto;
+}
+.right-chat-content i{
+    font-size: 50px;
+    margin-right: 20px;
+}
+.right-chat-content i :nth-child(3){
+    margin-right: 0;
 }
 .chat h3{
     font-size: 20px;
@@ -343,9 +364,15 @@ footer p{
     .portfolio-image{
         
         float: none;
+        margin: 0 auto;
         margin-bottom: 10px;
     
     }
+    .portfolio-image:nth-child(3n){
+        margin: 0 auto ;
+    }
+    
+
     .portfolio-image:nth-child(6){
         margin-bottom: 0;
     }
@@ -372,7 +399,7 @@ footer p{
     .feature-content{
         float: none;
         margin-bottom: 10px;
-        
+        margin: 0 auto;
         padding-right: 0;
         
 
@@ -427,6 +454,9 @@ footer p{
         width: 100%;
         margin: 0 auto;
     }
+
+    
+
     .right-chat{
         width: 100%;
         margin: 0 auto;
