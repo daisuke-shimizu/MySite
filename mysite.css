@@ -226,7 +226,7 @@ header{
     font-size: 16px;
     color: #000000;
     margin-bottom: 20px;
-    text-align: center;
+    
 }
 
 #contact{
@@ -258,16 +258,16 @@ header{
     width: 400px;
 }
 .right-chat-content{
-    
+    width: 200px;
     margin: 0 auto;
 }
 .right-chat-content i{
     font-size: 50px;
     margin-right: 20px;
 }
-.right-chat-content i :nth-child(3){
+/* .right-chat-content i:nth-child(3){
     margin-right: 0;
-}
+} */
 .chat h3{
     font-size: 20px;
     margin-bottom: 5px;
@@ -282,6 +282,10 @@ header{
     font-size: 50px;
     margin-right: 20px;
     
+}
+
+.right-chat i:nth-child(4){
+    margin-right: 0;
 }
 
 footer{
